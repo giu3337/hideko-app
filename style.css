@@ -3,7 +3,7 @@ html, body {
     padding: 0;
     font-family: 'Rubik', sans-serif;
     /* background-color: #EEF0F4; */
-    background-image: url(./assets/A1.jpg);
+    background-image: url(./assets/a2.JPG);
     background-repeat: no-repeat;
     background-size: cover;
     color: #432000;
@@ -36,7 +36,7 @@ input {
 
 button {
     color: #FDFDFD;
-    background-color: #AC485A;
+    background-color: skyblue;
     border: 0;
     padding: 15px;
     border-radius: 8px;
