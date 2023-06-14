@@ -24,7 +24,8 @@ img {
 
 input {
     color: #432000;
-    background-color: #DCE1EB;
+    /* background-color: #DCE1EB; */
+    background-color: #FFFDF8;
     border: 0;
     padding: 15px;
     border-radius: 8px;
@@ -46,7 +47,8 @@ button {
 }
 
 button:hover {
-    background-color: #432000;
+    /* background-color: #432000; */
+    background-color: rgb(28, 95, 149);
     cursor: pointer;
 }
 
