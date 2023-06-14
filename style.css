@@ -4,7 +4,7 @@ html, body {
     font-family: 'Rubik', sans-serif;
     /* background-color: #EEF0F4; */
     background-image: url(./assets/a2.JPG);
-    background-repeat: no-repeat;
+    /* background-repeat: no-repeat; */
     background-size: cover;
     color: #432000;
     user-select: none;
