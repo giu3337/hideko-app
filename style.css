@@ -6,8 +6,8 @@ html, body {
     /* background-image: url(./assets/a4.JPG); */
     /* background-image: url(/assets/fondoagosto.jpg); */
     /* background-repeat: no-repeat; */
-    background-image: url(https://i.pinimg.com/564x/27/7b/12/277b12526f04c852f945e12154aa4af5.jpg);
-    background-size: fit
+    /* background-image: url(https://i.pinimg.com/564x/27/7b/12/277b12526f04c852f945e12154aa4af5.jpg); */
+    background-size: cover
     ;
     color: #432000;
     user-select: none;

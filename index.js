@@ -63,3 +63,17 @@ function appendItemToShoppingListEl(item) {
     
     shoppingListEl.append(newEl)
 }
+
+// Api Background 
+
+fetch("https://apis.scrimba.com/unsplash/photos/random?orientation=landscape&query=nature")
+    .then( res => res.json())
+    .then( data => {
+        const backgroundImage = data.urls.full
+        document.body.style.backgroundImage = `url(${backgroundImage})`
+        console.log(backgroundImage);
+    })
+
+    .catch( err =>  {
+        document.body.style.backgroundImage = `url(./images/pexels-nathan-tran-16776159.jpg)`
+    })
